@@ -1,0 +1,14 @@
+#!/bin/bash
+
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+nice --adjustment=$1 ./time-waster &
+
+/usr/bin/time ./time-waster
