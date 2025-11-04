@@ -3,7 +3,7 @@
 int main()
 {
     int count = 0;
-    for (int i = 0; i < 1000000000; i++)
+    for (int i = 0; i < 100000000; i++)
     {
         count += 3;
     }
